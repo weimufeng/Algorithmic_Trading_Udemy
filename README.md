@@ -18,7 +18,13 @@ Strategy Implementation
 [RSI.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/RSI.py)  
 [RSITrading.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/RSITrading.py)  
 
-### 3. Momentum & SMA Combined Trading Strategy  
+### 3. Backtrader module  
+[BacktraderExample.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/BacktraderExample.py)
+
+### 4. Average True Range Indicator  
+[ATRImplementation.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/ATRImplementation.py)
+
+### 5. Momentum & SMA Combined Trading Strategy  
 [RegressionMomentum.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/RegressionMomentum.py)  
 #### Sample:
 ![alt](figs/Momentum/Figure_1.png)  
