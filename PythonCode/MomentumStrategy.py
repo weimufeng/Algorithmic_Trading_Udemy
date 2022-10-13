@@ -48,7 +48,7 @@ class MomentumStrategy(bt.Strategy):
             self.indicators[stock] = {}
             self.indicators[stock]['momentum'] = Momentum(stock.close, period=90)
             self.indicators[stock]['sma100'] = bt.indicators.\
-                SimpleMovingAverage(stock.close, period=100)
+                MovingAverageSimple(stock.close, period=100)
             self.indicators[stock]['atr20'] = bt.indicators.ATR(stock, period=20)
 
         # SMA for SP500 index - because we open long positions when the SP500 index
@@ -113,14 +113,15 @@ if __name__ == '__main__':
     stocks = []
     cerebro = bt.Cerebro()
 
-    with open("companies_all") as file_in:
+    with open("../Data/companies") as file_in:
         for line in file_in:
             stocks.append(line.strip('\n'))
             try:
-                df = pd.read_csv(line.strip('\n'), parse_dates=True, index_col=0)
+                df = pd.read_csv("../Data/"+line.strip('\n'), parse_dates=True, index_col=0)
                 if len(df) > 100:
                     cerebro.adddata(bt.feeds.PandasData(dataname=df, plot=False))
             except FileNotFoundError:
+                print("File not found!")
                 pass
 
     cerebro.addobserver(bt.observers.Value)
