@@ -35,3 +35,8 @@ Implementation of a combined momentum and SMA strategy using backtrader module.
 ### 6. Autoregressive Model (AR)  
 [AR](https://github.com/weimufeng/Algorithmic_Trading_Udemy/tree/main/TimeSeries/AR)  
 
+### 7. Moving Average Model (MA)  
+[MA](https://github.com/weimufeng/Algorithmic_Trading_Udemy/tree/main/TimeSeries/MA)  
+
+
+
