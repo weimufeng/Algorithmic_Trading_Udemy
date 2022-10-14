@@ -2,7 +2,7 @@
 
 This repository contains course materials from Udemy Algorithmic Trading Course. 
 
-## Python code for some topics in quantitative finance  
+## Code for some topics in quantitative finance  
 
 ### 1. Moving Average Indicator
 [SMAExample.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/SMAExample.py)  
@@ -30,4 +30,8 @@ Strategy Implementation
 ![alt](figs/Momentum/Figure_1.png)  
 
 Implementation of a combined momentum and SMA strategy using backtrader module.  
-[MomentumStrategy.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/MomentumStrategy.py)
+[MomentumStrategy.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/MomentumStrategy.py)  
+
+### 6. Autoregressive Model (AR)  
+[AR](https://github.com/weimufeng/Algorithmic_Trading_Udemy/tree/main/TimeSeries/AR)  
+
