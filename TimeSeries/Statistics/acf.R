@@ -5,10 +5,12 @@ install.packages("quantmod")
 require(quantmod)
 
 #we download AAPL stock prices from Yahoo Finance
-getSymbols("AAPL",src="yahoo")
+getSymbols("AAPL",src="yahoo", start="2010-01-05", to="2015-01-05")
 
 #there are several columns: high (Hi), low (Lo), closing price (Cl), adjusted closing price(Ad)
+AAPL
 Ad(AAPL)
+
 #we want to plot the adjusted closing prices
 plot(Ad(AAPL))
 
