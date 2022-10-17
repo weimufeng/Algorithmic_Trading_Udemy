@@ -38,5 +38,8 @@ Implementation of a combined momentum and SMA strategy using backtrader module.
 ### 7. Moving Average Model (MA)  
 [MA](https://github.com/weimufeng/Algorithmic_Trading_Udemy/tree/main/TimeSeries/MA)  
 
+### 8. Autoregressive Moving Average Model (ARMA)  
+[ARMA](https://github.com/weimufeng/Algorithmic_Trading_Udemy/tree/main/TimeSeries/ARMA)  
+
 
 
