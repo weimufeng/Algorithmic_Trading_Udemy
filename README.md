@@ -41,5 +41,8 @@ Implementation of a combined momentum and SMA strategy using backtrader module.
 ### 8. Autoregressive Moving Average Model (ARMA)  
 [ARMA](https://github.com/weimufeng/Algorithmic_Trading_Udemy/tree/main/TimeSeries/ARMA)  
 
+### 9. Autoregressive Conditional Heteroskedastic Model (ARCH) and Generalized Autoregressive Conditional Heteroskedastic Model (GARCH)  
+[GARCH](https://github.com/weimufeng/Algorithmic_Trading_Udemy/tree/main/TimeSeries/HeteroskedasticityModels)
+
 
 
