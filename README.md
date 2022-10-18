@@ -44,8 +44,11 @@ Implementation of a combined momentum and SMA strategy using backtrader module.
 ### 9. Autoregressive Conditional Heteroskedastic Model (ARCH) and Generalized Autoregressive Conditional Heteroskedastic Model (GARCH)  
 [GARCH](https://github.com/weimufeng/Algorithmic_Trading_Udemy/tree/main/TimeSeries/HeteroskedasticityModels)
 
-### 10. Strategies: ARIMA and GORCH Implementation on FOREX and Stocks
+### 10. Strategy: ARIMA and GORCH Implementation on FOREX and Stocks
 [TradingStrategy](https://github.com/weimufeng/Algorithmic_Trading_Udemy/tree/main/TimeSeries/TradingStrategy)
+
+### 11. Strategy: Bollinger Bands  
+[BollingerBandsTradingStrategy.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/BollingerBandsTradingStrategy.py)
 
 
 
