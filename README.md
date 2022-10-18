@@ -50,6 +50,9 @@ Implementation of a combined momentum and SMA strategy using backtrader module.
 ### 11. Strategy: Bollinger Bands  
 [BollingerBandsTradingStrategy.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/BollingerBandsTradingStrategy.py)
 
+### 12. Strategy: Cross-Sectional Mean Reversion  
+[CrossSectionalMeanReversion.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/CrossSectionalMeanReversion.py)
+
 
 
 
