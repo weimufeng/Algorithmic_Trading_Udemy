@@ -53,6 +53,6 @@ Implementation of a combined momentum and SMA strategy using backtrader module.
 ### 12. Strategy: Cross-Sectional Mean Reversion  
 [CrossSectionalMeanReversion.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/CrossSectionalMeanReversion.py)
 
-
-
+### 13. Support Vector Machine Trading Strategy  
+[SVMCombinedStrategy.py](https://github.com/weimufeng/Algorithmic_Trading_Udemy/blob/main/PythonCode/SVMCombinedStrategy.py)
 
