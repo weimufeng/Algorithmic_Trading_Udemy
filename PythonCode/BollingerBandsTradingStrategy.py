@@ -44,7 +44,7 @@ if __name__ == '__main__':
     cerebro.addstrategy(BollingerBandStrategy)
 
     data = bt.feeds.YahooFinanceData(
-        dataname='IBM',
+        dataname='MSFT',
         fromdate=datetime(2010, 1, 1),
         todate=datetime(2019, 1, 1)
     )

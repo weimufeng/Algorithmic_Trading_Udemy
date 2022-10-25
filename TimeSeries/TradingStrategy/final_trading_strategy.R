@@ -8,7 +8,7 @@ install.packages("rugarch")
 library(rugarch)
 
 #we can read the .csv file containing all the EUR/USD related information
-eurusd <- read.csv(file="C:\\Users\\User\\Desktop\\TimeSeries\\sourcecode\\TradingStrategy\\EURUSD.csv", header = T)
+eurusd <- read.csv(file="/Users/mufengwei/Desktop/EURUSD.csv", header = T)
 dates <- as.Date(as.character(eurusd[, 1]), format="%d/%m/%Y")
 #log returns ... there are several values: open price / high price / low price / closing price (this is what we use)
 returns <- diff(log(eurusd$C))

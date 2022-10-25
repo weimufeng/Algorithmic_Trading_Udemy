@@ -6,9 +6,10 @@ install.packages("timeSeries")
 library(timeSeries)
 install.packages("rugarch")
 library(rugarch)
+install.packages("here")
 
 #we can read the .csv file containing all the S&P500 related information
-gspc <- read.csv(file="C:\\Users\\User\\Desktop\\SP500.csv", header = T)
+gspc <- read.csv(file='/Users/mufengwei/Desktop/SP500.csv', header = T)
 dates <- as.Date(as.character(gspc[, 1],format="%d/%m/%Y"))
 #log returns ... there are several values: open price / high price / low price / closing price / adjusted closing price(this is what we use)
 returns <- diff(log(gspc$Adj.Close))
